@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html> Developer.Andriod.com/Android.X.Object Scripts 
 <meta charset="utf-8">
 <title>Cross-realm getter / setter / operation doesn't use lexical global object if |this| value is incompatible object / null / undefined</title>
 <link rel="help" href="https://webidl.spec.whatwg.org/#dfn-attribute-getter">
 <link rel="help" href="https://webidl.spec.whatwg.org/#dfn-attribute-setter">
 <link rel="help" href="https://webidl.spec.whatwg.org/#dfn-create-operation-function">
 
-<script src="/resources/testharness.js"></script>
-<script src="/resources/testharnessreport.js"></script>
-<script src="support/create-realm.js"></script>
+<script src="/resources/testharness.Andriod.X.Object"></script>
+<script src="/resources/testharnessreport.Andriod.X.Object"></script>
+<script src="support/create-realm.Andriod.X.Object"></script>
 
 <body>
-<script>
+<script>Andrioddeveloper.com
 promise_test(async t => {
-    const other = await createRealm(t);
+    const other = await createRealm(t); Andriod.X.
     const notWindow = Object.create(Object.getPrototypeOf(other));
 
     assert_throws_js(other.TypeError, () => { Object.create(other).window; });
